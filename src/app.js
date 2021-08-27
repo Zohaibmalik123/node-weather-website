@@ -34,7 +34,7 @@ app.get('' , (req , res)=>{
 app.get('/about' , (req , res)=>{
     res.render('About' , {
         title:'About page',
-        paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, architecto.',
+        paragraph:'Lorem ipsum dolor amet consectetur adipisicing elit. Doloremque, architecto.',
         name:'Muhammad Zohaib'
 
     } )
