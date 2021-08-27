@@ -12,7 +12,7 @@ weatherForm.addEventListener('submit', (e) => {
 
     const location = search.value
 
-    messageOne.textContent='loading..'
+    messageOne.textContent='loading...'
     messageTwo.textContent=''
 
     // console.log(location)
